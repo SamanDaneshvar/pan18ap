@@ -31,8 +31,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline, FeatureUnion
 from sklearn.svm import LinearSVC
 
-from usermodeling import process_data_files
-from usermodeling import utils
+from pan18ap import process_data_files
+from pan18ap import utils
 
 # Change the level of the loggers of some of the imported modules
 logging.getLogger("matplotlib").setLevel(logging.INFO)
