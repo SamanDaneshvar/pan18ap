@@ -3,7 +3,8 @@ The participation of the Natural Language Processing Lab of the University of Ot
 
 Our model was the **best-performing** model in *textual classification*, with the accuracy of 0.8221, 0.82, and 0.809 on the English, Spanish, and Arabic datasets respectively. Considering the combination of textual and image classification, and all three datasets, *our model ranked __second__ in the task* out of 23 teams.
 
-Our approach to gender identification in Twitter performed on the tweet corpus provided by CLEF for the task, takes advantage of textual information solely, and consists of tweet preprocessing, feature construction, dimensionality reduction using Latent Semantic Analysis (LSA), and classification model construction. We propose a linear Support Vector Machine (SVM) classifier, with different types of word and character n-grams as features.
+Our approach to gender identification in Twitter, takes advantage of textual information solely, and consists of tweet preprocessing, feature construction, dimensionality reduction using Latent Semantic Analysis (LSA), and classification model construction. We propose a linear Support Vector Machine (SVM) classifier, with different types of word and character n-grams as features.
+
 
 ## Citation
 If our code comes in useful to you, please don't forget to cite our paper:
@@ -26,7 +27,7 @@ Here, I will specifically explain the Author Profiling task at PAN 2018, but the
 1. First, head to the [Shared Tasks @ PAN](https://pan.webis.de/tasks.html) webpage, browse the tasks and register for the tasks that you like. It's free!
 1. You will receive an email from the organizers explaining how to access the dataset, how to submit your code (on the [TIRA](https://www.tira.io) virtual machine), and so on.
 1. Head back to the shared task's webpage, and browse the prevoius year's task: [Author Profiling task, PAN @ CLEF 2018](https://pan.webis.de/clef18/pan18-web/author-profiling.html).\
-Here, you can see the ranking of the participating teams. Our team was named `daneshvar18`, and you can see that we ranked second in the global ranking, with the highest accuracy results in textual classification.\
+Here, you can see the ranking of the participating teams. Our team was named `daneshvar18` and ranked second in the global ranking, with the highest accuracy results in textual classification.\
 You can also find the following paper:
     > Francisco Rangel, Paolo Rosso, Martin Potthast, Benno Stein. [*Overview of the 6th Author Profiling Task at PAN 2018: Multimodal Gender Identification in Twitter*](http://ceur-ws.org/Vol-2125/invited_paper_15.pdf). In: CLEF 2018 Labs and Workshops, Notebook Papers. CEUR Workshop Proceedings. CEUR-WS.org, vol. 2125.
     
@@ -40,10 +41,11 @@ A great place to start is the [beginner's guide](https://www.python.org/about/ge
 
 Once you have your Python installation up and running, you can continue to the [next section](#installation), to set up my code on your computer.
 
-In my code, I have tried to include some additional comments, explanations, and references that would make things a bit more clear to a novice programmer.
+In my code, I have tried to include some additional explanations and references in the comments, that would make things a bit more clear to a novice programmer.
 
 ## Installation
 ### Requirements
+
 
 ### Dataset
 
