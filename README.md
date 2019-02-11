@@ -30,7 +30,7 @@ You can also find the following paper:
     
     Start by reviewing this paper, to get a sense of what approaches have been tried in the previous year and what has worked best for other participants.
 1. Head to the publications page for that year of the task at [PAN](https://pan.webis.de/publications.html) (not updated with the 2018 papers, for some reason) or [CEUR](http://ceur-ws.org/Vol-2125/), and look for the notebook papers of the top-ranking teams.
-The papers should include all the required details to reproduce their experiment results. The links to our paper are provided [here](#citation).
+The papers should include all the required details to reproduce their experiments. The links to our paper are provided [here](#citation).
 1. Some teams also publish their source code. You can find them at [PAN's GitHub](https://github.com/pan-webis-de).
 
 ### I am new to Python. What do I do?
