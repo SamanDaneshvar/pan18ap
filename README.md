@@ -27,7 +27,7 @@ Here, I will specifically explain the Author Profiling task at PAN 2018, but the
 1. First, head to the [Shared Tasks @ PAN](https://pan.webis.de/tasks.html) webpage, browse the tasks and register for the tasks that you like. It's free!
 1. You will receive an email from the organizers explaining how to access the dataset, how to submit your code (on the [TIRA](https://www.tira.io) virtual machine), and so on.
 1. Head back to the shared task's webpage, and browse the prevoius year's task: [Author Profiling task, PAN @ CLEF 2018](https://pan.webis.de/clef18/pan18-web/author-profiling.html).\
-Here, you can see the ranking of the participating teams. Our team was named `daneshvar18` and ranked second in the global ranking, with the highest accuracy results in textual classification.\
+Here, you can see the ranking of the participating teams. Our team (named `daneshvar18`) ranked **second** in the *global ranking* and gained the **highest accuracy results** among all 23 participating teams in *textual classification*.\
 You can also find the following paper:
     > Francisco Rangel, Paolo Rosso, Martin Potthast, Benno Stein. [*Overview of the 6th Author Profiling Task at PAN 2018: Multimodal Gender Identification in Twitter*](http://ceur-ws.org/Vol-2125/invited_paper_15.pdf). In: CLEF 2018 Labs and Workshops, Notebook Papers. CEUR Workshop Proceedings. CEUR-WS.org, vol. 2125.
     
