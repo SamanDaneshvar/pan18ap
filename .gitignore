@@ -108,7 +108,7 @@ venv.bak/
 .idea/
 
 # data, logs, and pickles folders
-data/
+data/PAN 2018, Author Profiling/
 logs/
 pickles/
 # ----- </My gitignore> -----
