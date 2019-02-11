@@ -6,7 +6,7 @@ Our model was the **best-performing** model in *textual classification*, with th
 Our approach to gender identification in Twitter performed on the tweet corpus provided by CLEF for the task, takes advantage of textual information solely, and consists of tweet preprocessing, feature construction, dimensionality reduction using Latent Semantic Analysis (LSA), and classification model construction. We propose a linear Support Vector Machine (SVM) classifier, with different types of word and character n-grams as features.
 
 ## Citation
-If this code is helpful to you, please don't forget to cite our paper:
+If our code comes in useful to you, please don't forget to cite our paper:
 > Daneshvar, S., & Inkpen, D. (2018). [*Gender Identification in Twitter using N-grams and LSA*](https://scholar.google.com/scholar?cluster=4499254726211723674). Notebook for PAN at CLEF 2018. CEUR Workshop Proceedings, 2125, 1–10. [[Publisher](http://ceur-ws.org/Vol-2125/)] [[Paper PDF](http://ceur-ws.org/Vol-2125/paper_213.pdf)] [[Cite: BibTeX](../../raw/master/Daneshvar2018.bib)]
 
 
@@ -15,7 +15,7 @@ You are probably here for one of the following reasons:
 - You are a participant in a [shared task at PAN](https://pan.webis.de/tasks.html), looking for approaches that have worked well for other participants of the task in the previous years.
 - You are a *machine learning* and *natural language processing* enthusiast, looking for some starting code to try out some NLP and ML experiments.
 
-In the next section, I will give you step by step instructions on how to reproduce the results of the other teams who participated in a shared task at PAN in the previous years. If you are not looking to participate at a PAN shared task, you may skip the next section, but I still encourage you to take a look at [our paper](#citation) for full details on our approach.
+In the next section, I will give step by step instructions on how to reproduce the results of the other teams who participated in a shared task at PAN in the previous years. These instructions are geared towards those with little or no experience with NLP and ML research. Also, if you are not looking to participate at a PAN shared task, you may skip the next section, but I still encourage you to take a look at [our paper](#citation) for full details on our approach.
 
 
 ## Getting started: a beginner's guide to PAN shared tasks
