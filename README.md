@@ -20,6 +20,8 @@ In the next section, I will give you step by step instructions on how to reprodu
 
 ## Getting started: a beginner's guide to PAN shared tasks
 ### I am looking to participate in a shared task at PAN. Where do I start?
+In a nutshell, begin with reproducing the experiments of the previous year's participants, and then try to improve the results by implementing new methods.
+
 Here, I will specifically explain the Author Profiling task at PAN 2018, but the following steps apply to pretty much any shared task.
 1. First, head to the [Shared Tasks @ PAN](https://pan.webis.de/tasks.html) webpage, browse the tasks and register for the tasks that you like. It's free!
 1. You will receive an email from the organizers explaining how to access the dataset, how to submit your code (on the [TIRA](https://www.tira.io) virtual machine), and so on.
@@ -28,17 +30,17 @@ Here, you can see the ranking of the participating teams. Our team was named `da
 You can also find the following paper:
     > Francisco Rangel, Paolo Rosso, Martin Potthast, Benno Stein. [*Overview of the 6th Author Profiling Task at PAN 2018: Multimodal Gender Identification in Twitter*](http://ceur-ws.org/Vol-2125/invited_paper_15.pdf). In: CLEF 2018 Labs and Workshops, Notebook Papers. CEUR Workshop Proceedings. CEUR-WS.org, vol. 2125.
     
-    Start by reviewing this paper, to get a sense of what approaches have been tried in the previous year and what has worked best for other participants.
+    Start by reviewing this paper, to get a sense of what approaches have been tried in the previous year and what has worked best for other participants. The next step would be to reproduce the experiments of other participants.
 1. Head to the publications page for that year of the task at [PAN](https://pan.webis.de/publications.html) (not updated with the 2018 papers, for some reason) or [CEUR](http://ceur-ws.org/Vol-2125/), and look for the notebook papers of the top-ranking teams.
 The papers should include all the required details to reproduce their experiments. The links to our paper are provided [here](#citation).
 1. Some teams also publish their source code. You can find them at [PAN's GitHub](https://github.com/pan-webis-de). To explore our code, continue to the [Installation](#installation) section.
 
 ### I am new to Python. What do I do?
-A great place to start is the [beginner's guide](https://www.python.org/about/gettingstarted/) and the [Python tutorial](https://docs.python.org/3/tutorial/) at Python's own website.
+A great place to start is the [beginner's guide](https://www.python.org/about/gettingstarted/) and the [Python tutorial](https://docs.python.org/3/tutorial/) at Python's own website. Needless to say, there are plenty of books, online courses and GitHub repositories to help you learn Python, but we won't get into that here.
 
-Once you have your Python installation up and running, you can continue to the next section, to set up my code on your computer.
+Once you have your Python installation up and running, you can continue to the [next section](#installation), to set up my code on your computer.
 
-In my code, I have tried to include some additional comments, explanations, and references that would make things a bit more clear to a beginner.
+In my code, I have tried to include some additional comments, explanations, and references that would make things a bit more clear to a novice programmer.
 
 ## Installation
 ### Requirements
