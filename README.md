@@ -23,10 +23,10 @@ In the next section, I will give you step by step instructions on how to reprodu
 Here, I will specifically explain the Author Profiling task at PAN 2018, but the following steps apply to pretty much any shared task.
 1. First, head to the [Shared Tasks @ PAN](https://pan.webis.de/tasks.html) webpage, browse the tasks and register for the tasks that you like. It's free!
 1. You will receive an email from the organizers explaining how to access the dataset, how to submit your code (on the [TIRA](https://www.tira.io) virtual machine), and so on.
-1. Head back to the shared task's webpage, and browse the prevoius year's task: [Author Profiling task, PAN @ CLEF 2018](https://pan.webis.de/clef18/pan18-web/author-profiling.html).
-Here, you can see the ranking of the participating teams. Our team was named `daneshvar18`, and you can see that we ranked second in the global ranking, with the highest accuracy results in textual classification.
+1. Head back to the shared task's webpage, and browse the prevoius year's task: [Author Profiling task, PAN @ CLEF 2018](https://pan.webis.de/clef18/pan18-web/author-profiling.html).\
+Here, you can see the ranking of the participating teams. Our team was named `daneshvar18`, and you can see that we ranked second in the global ranking, with the highest accuracy results in textual classification.\
 You can also find the following paper:
-    > Francisco Rangel, Paolo Rosso, Martin Potthast, Benno Stein. [*Overview of the 6th author profiling task at pan 2018: multimodal gender identification in Twitter*](http://ceur-ws.org/Vol-2125/invited_paper_15.pdf). In: CLEF 2018 Labs and Workshops, Notebook Papers. CEUR Workshop Proceedings. CEUR-WS.org, vol. 2125.
+    > Francisco Rangel, Paolo Rosso, Martin Potthast, Benno Stein. [*Overview of the 6th Author Profiling Task at PAN 2018: Multimodal Gender Identification in Twitter*](http://ceur-ws.org/Vol-2125/invited_paper_15.pdf). In: CLEF 2018 Labs and Workshops, Notebook Papers. CEUR Workshop Proceedings. CEUR-WS.org, vol. 2125.
     
     Start by reviewing this paper, to get a sense of what approaches have been tried in the previous year and what has worked best for other participants.
 1. Head to the publications page for that year of the task at [PAN](https://pan.webis.de/publications.html) (not updated with the 2018 papers, for some reason) or [CEUR](http://ceur-ws.org/Vol-2125/), and look for the notebook papers of the top-ranking teams.
