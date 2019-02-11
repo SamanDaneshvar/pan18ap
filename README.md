@@ -20,21 +20,23 @@ https://scholar.google.com/scholar?cluster=4499254726211723674
 Add the PAN 2018 Author Profiling training corpus and the Flame Dictionary to the "data/" directory as follows:
 ```
 data/
-  PAN 2018, Author Profiling/
-    ar/  
-    en/  
-    es/  
-  Flame_Dictionary.txt
+│   Flame_Dictionary.txt
+│
+└───PAN 2018, Author Profiling/
+    ├───ar/
+    ├───en/
+    └───es/
 ```
 
 Each of the "ar", "en" and "es" folders are structured as follows:
 ```
 en/
-  photo/
-    (3000 folders, each containing 10 photos)
-  text/
-    (3000 XML files)
-  en.txt
+│   en.txt
+│
+├───photo/
+│   └───(3000 folders, each containing 10 photos)
+└───text/
+        (3000 XML files)
 ```
 
 ## Support
