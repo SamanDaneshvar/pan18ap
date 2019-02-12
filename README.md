@@ -6,6 +6,7 @@ Our model was the **best-performing** model in *textual classification*, with th
 
 Our approach to gender identification in Twitter, takes advantage of textual information solely, and consists of tweet preprocessing, feature construction, dimensionality reduction using Latent Semantic Analysis (LSA), and classification model construction. We propose a linear Support Vector Machine (SVM) classifier, with different types of word and character n-grams as features.
 
+
 ## *Contents*
 1. [Citation](#citation)
 1. [Motivation](#motivation)
@@ -18,12 +19,13 @@ Our approach to gender identification in Twitter, takes advantage of textual inf
 1. [Support](#support)
 1. [Acknowledgments](#acknowledgments)
 
+
 ## Citation
 If our code comes in useful to you, please don't forget to cite our paper:
 > Daneshvar, S., & Inkpen, D. (2018). [*Gender Identification in Twitter using N-grams and LSA*](https://scholar.google.com/scholar?cluster=4499254726211723674). Notebook for PAN at CLEF 2018. CEUR Workshop Proceedings, 2125, 1–10. [[Publisher](http://ceur-ws.org/Vol-2125/)] [[Paper PDF](http://ceur-ws.org/Vol-2125/paper_213.pdf)] [[Cite: BibTeX](../../raw/master/Daneshvar2018.bib)]
 
 
-## Motivation[`⯅`](#contents)
+## Motivation
 You are probably here for one of the following reasons:
 - You are a participant in a [shared task at PAN](https://pan.webis.de/tasks.html), looking for approaches that have worked well for other participants of the task in the previous years.
 - You are a *machine learning* and *natural language processing* enthusiast, looking for some starting code to try out some NLP and ML experiments.
@@ -54,6 +56,7 @@ A great place to start is the [beginner's guide](https://www.python.org/about/ge
 Once you have your Python installation up and running, you can continue to the [next section](#installation), to set up my code on your computer.
 
 In my code, I have tried to include some additional explanations and references in the comments, that would make things a bit more clear to a novice programmer.
+
 
 ## Installation
 ### Requirements
@@ -113,8 +116,10 @@ Moreover, I have included the [Flame dictionary](http://www.site.uottawa.ca/~dia
 
 The program should now be ready to run. For more information, refer to the docstrings.
 
+
 ## Support
 I hope this information will be useful. If you have any specific questions about the code or our approach that you cannot find the answer to in the comments or in the notebook paper, my email address is written in [our paper](#citation).
+
 
 ## Acknowledgments
 - Thanks to the **Natural Sciences and Engineering Research Council of Canada (NSERC)** and the **University of Ottawa** for funding this research.
