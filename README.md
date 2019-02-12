@@ -99,7 +99,7 @@ Please note that you may skip copying the `photo/` folders to the project's dire
 
 Moreover, I have included the [Flame dictionary](http://www.site.uottawa.ca/~diana/resources/) in the `data/` directory in the repository, but you will not need it to reproduce our results, since the *Flame dictionary* was not used in our final model.
 
-The program should now be ready to run. For more information, refer to the docstrings of the modules and functions.
+The program should now be ready to run. For more information, refer to the docstrings.
 
 ## Support
 I hope this information comes in useful. If you have any specific questions about the code or our approach that you cannot find the answer to in the comments or in the notebook paper, my email address is written in [our paper](#citation).
