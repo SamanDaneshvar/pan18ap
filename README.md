@@ -30,7 +30,7 @@ You are probably here for one of the following reasons:
 - You are a participant in a [shared task at PAN](https://pan.webis.de/tasks.html), looking for approaches that have worked well for other participants of the task in the previous years.
 - You are a *machine learning* and *natural language processing* enthusiast, looking for some starting code to try out some NLP and ML experiments.
 
-In the next section, I will give step by step instructions on how to reproduce the results of the other teams who participated in a shared task at PAN in the previous years. These instructions are geared towards those with little or no experience with NLP and ML research. Also, if you are not looking to participate at a PAN shared task, you may skip the next section, but I still encourage you to take a look at [our paper](#citation) for full details on our approach.
+In the next section, I will give step by step instructions on how to reproduce the results of the other teams who participated in a shared task at PAN in the previous years. These instructions are geared towards those with little or no experience with NLP and ML research. If this does not apply to you or you are not looking to participate at a PAN shared task, you may skip the next section, but I still encourage you to take a look at [our paper](#citation) for full details on our approach.
 
 
 ## Getting started: a beginner's guide to PAN shared tasks
