@@ -26,7 +26,7 @@ In a nutshell, begin with reproducing the experiments of the previous year's par
 Here, I will specifically explain the Author Profiling task at PAN 2018, but the following steps apply to pretty much any shared task.
 1. First, head to the [Shared Tasks @ PAN](https://pan.webis.de/tasks.html) webpage, browse the tasks and register for the tasks that you like. It's free!
 1. You will receive an email from the organizers explaining how to access the dataset, how to submit your code (on the [TIRA](https://www.tira.io) virtual machine), and so on.
-1. Head back to the shared task's webpage, and browse the prevoius year's task: [Author Profiling task, PAN @ CLEF 2018](https://pan.webis.de/clef18/pan18-web/author-profiling.html).\
+1. Head back to the shared task's webpage, and browse the prevoius year's task: [Author Profiling task, PAN @ CLEF 2018](https://pan.webis.de/clef18/pan18-web/author-profiling.html)\
 Here, you can see the ranking of the participating teams. Our team (named `daneshvar18`) ranked **second** in the *global ranking* and gained the **highest accuracy results** among all 23 participating teams in *textual classification*.\
 You can also find the following paper:
     > Francisco Rangel, Paolo Rosso, Martin Potthast, Benno Stein. [*Overview of the 6th Author Profiling Task at PAN 2018: Multimodal Gender Identification in Twitter*](http://ceur-ws.org/Vol-2125/invited_paper_15.pdf). In: CLEF 2018 Labs and Workshops, Notebook Papers. CEUR Workshop Proceedings. CEUR-WS.org, vol. 2125.
@@ -45,11 +45,35 @@ In my code, I have tried to include some additional explanations and references 
 
 ## Installation
 ### Requirements
+The following packages are used in this project:
+- [scikit-learn](https://scikit-learn.org/stable/install.html)
+- [NLTK](https://www.nltk.org/install.html)
+- [Matplotlib](https://matplotlib.org/users/installing.html)
 
+You can install all three packages using *Conda*:
+```
+conda install scikit-learn
+conda install nltk
+conda install matplotlib
+```
+
+Or using *pip*:
+```
+pip install -U scikit-learn
+pip install -U nltk
+pip install -U matplotlib
+```
+
+For specific installation instructions refer to the links above.
 
 ### Dataset
+You can download the training corpus from the shared task's webpage: [Author Profiling, PAN @ CLEF 2018](https://pan.webis.de/clef18/pan18-web/author-profiling.html)
 
-Add the PAN 2018 Author Profiling training corpus and the Flame Dictionary to the `data/` directory as follows:
+You can even download the test corpus—this is the corpus that our programs were tested against at the time of submission on the TIRA virtual machine. At the time, we did not have access to these files.
+
+Note that the ZIP files are password-protected. To acquire the passwords, [contact the organizers of PAN](https://pan.webis.de/contact.html). They are very helpful and will give you really useful advice.
+
+Once you have downloaded and extracted the *PAN 2018 Author Profiling* training corpus, add it to the `data/` directory as follows:
 ```
 data/
 │   Flame_Dictionary.txt
@@ -60,16 +84,22 @@ data/
     └───es/
 ```
 
-Each of the `ar`, `en` and `es` folders are structured as follows:
+Each of the `ar`, `en` and `es` folders in the corpus archive are structured as follows:
 ```
 en/
 │   en.txt
 │
 ├───photo/
-│   └───(3000 folders, each containing 10 photos)
+│   └───(3000 folders, each containing 10 photos)——You may skip these files and folders, as we won't use them.
 └───text/
         (3000 XML files)
 ```
+
+Please note that you may skip copying the `photo/` folders to the project's directory, since our code only uses the textual data and does not use any of the photos in the dataset.
+
+Moreover, I have included the [Flame dictionary](http://www.site.uottawa.ca/~diana/resources/) in the `data/` directory in the repository, but you will not need it to reproduce our results, since the *Flame dictionary* was not used in our final model.
+
+The program should now be ready to run. For more information, refer to the docstrings of the modules and functions.
 
 ## Support
 
