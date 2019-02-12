@@ -86,7 +86,7 @@ You can download the training corpus from the shared task's webpage: [Author Pro
 
 You can even download the test corpus—this is the corpus that our programs were tested against at the time of submission on the TIRA virtual machine. At the time, we did not have access to these files.
 
-Note that the ZIP files are password-protected. To acquire the passwords, [contact the organizers of PAN](https://pan.webis.de/contact.html). They are really helpful and will give you useful advice.
+Note that the ZIP files are password-protected. To obtain the passwords, [contact the organizers of PAN](https://pan.webis.de/contact.html). They are really helpful and will give you useful advice.
 
 Once you have downloaded and extracted the *PAN 2018 Author Profiling* training corpus, add it to the `data/` directory as follows:
 ```
@@ -99,7 +99,7 @@ data/
     └───es/
 ```
 
-Each of the `ar`, `en` and `es` folders in the corpus archive are structured as follows:
+Each of the `ar`, `en` and `es` folders in the provided corpus are structured as follows:
 ```
 en/
 │   en.txt
