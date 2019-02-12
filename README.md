@@ -46,7 +46,7 @@ On the same page, you can also find the following paper:
     > Francisco Rangel, Paolo Rosso, Martin Potthast, Benno Stein. [*Overview of the 6th Author Profiling Task at PAN 2018: Multimodal Gender Identification in Twitter*](http://ceur-ws.org/Vol-2125/invited_paper_15.pdf). In: CLEF 2018 Labs and Workshops, Notebook Papers. CEUR Workshop Proceedings. CEUR-WS.org, vol. 2125.
     
     Start by reviewing this paper, to get a sense of what approaches have been tried in the previous year and what has worked best for other participants. The next step would be to reproduce the experiments of other participants.
-1. Head to the publications page for that year of the task at [PAN](https://pan.webis.de/publications.html) (not updated with the 2018 papers, for some reason) or [CEUR](http://ceur-ws.org/Vol-2125/), and look for the notebook papers of the top-ranking teams.
+1. Head to the [PAN's publications](https://pan.webis.de/publications.html) page (not yet updated with the 2018 papers) or the [CLEF 2018 Working Notes](http://ceur-ws.org/Vol-2125/), and look for the notebook papers of the top-ranking teams.
 The papers should include all the required details to reproduce their experiments. The links to our paper are provided [here](#citation).
 1. Some teams also publish their source code. You can find them at [PAN's GitHub](https://github.com/pan-webis-de). To explore our code, continue to the [Installation](#installation) section.
 
