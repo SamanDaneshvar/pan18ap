@@ -113,7 +113,7 @@ Moreover, I have included the [Flame dictionary](http://www.site.uottawa.ca/~dia
 The program should now be ready to run. For more information, refer to the docstrings.
 
 ## Support
-I hope this information comes in useful. If you have any specific questions about the code or our approach that you cannot find the answer to in the comments or in the notebook paper, my email address is written in [our paper](#citation).
+I hope this information will be useful. If you have any specific questions about the code or our approach that you cannot find the answer to in the comments or in the notebook paper, my email address is written in [our paper](#citation).
 
 ## Acknowledgments
 - Thanks to the **Natural Sciences and Engineering Research Council of Canada (NSERC)** and the **University of Ottawa** for funding this research.
