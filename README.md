@@ -5,6 +5,17 @@ Our model was the **best-performing** model in *textual classification*, with th
 
 Our approach to gender identification in Twitter, takes advantage of textual information solely, and consists of tweet preprocessing, feature construction, dimensionality reduction using Latent Semantic Analysis (LSA), and classification model construction. We propose a linear Support Vector Machine (SVM) classifier, with different types of word and character n-grams as features.
 
+## *Contents*
+1. [Citation](#citation)
+1. [Motivation](#motivation)
+1. [Getting started: a beginner's guide to PAN shared tasks](#getting-started-a-beginners-guide-to-pan-shared-tasks)
+    1. [I am looking to participate in a shared task at PAN. Where do I start?](#i-am-looking-to-participate-in-a-shared-task-at-pan-where-do-i-start)
+    1. [I am new to Python. What do I do?](#i-am-new-to-python-what-do-i-do)
+1. [Installation](#installation)
+    1. [Requirements](#requirements)
+    1. [Dataset](#dataset)
+1. [Support](#support)
+1. [Acknowledgments](#acknowledgments)
 
 ## Citation
 If our code comes in useful to you, please don't forget to cite our paper:
