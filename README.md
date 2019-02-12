@@ -22,7 +22,7 @@ Our approach to gender identification in Twitter, takes advantage of textual inf
 
 ## Citation
 If our code comes in useful to you, please don't forget to cite our paper:
-> Daneshvar, S., & Inkpen, D. (2018). [*Gender Identification in Twitter using N-grams and LSA*](https://scholar.google.com/scholar?cluster=4499254726211723674). Notebook for PAN at CLEF 2018. CEUR Workshop Proceedings, 2125, 1–10. [`Publisher`](http://ceur-ws.org/Vol-2125/) [`Paper PDF`](http://ceur-ws.org/Vol-2125/paper_213.pdf) [`Cite: BibTeX`](../../raw/master/Daneshvar2018.bib)
+> Daneshvar, S., & Inkpen, D. (2018). [*Gender Identification in Twitter using N-grams and LSA*](https://scholar.google.com/scholar?cluster=4499254726211723674). Notebook for PAN at CLEF 2018. CEUR Workshop Proceedings, 2125, 1–10. &nbsp; [`Publisher`](http://ceur-ws.org/Vol-2125/) &nbsp;[`Paper PDF`](http://ceur-ws.org/Vol-2125/paper_213.pdf) &nbsp;[`Cite: BibTeX`](../../raw/master/Daneshvar2018.bib)
 
 
 ## Motivation
