@@ -1,5 +1,6 @@
 # pan18ap (PAN 2018, Author Profiling task)
-The participation of the *Natural Language Processing Lab* of the *University of Ottawa* in the [Author Profiling shared task at PAN 2018](https://pan.webis.de/clef18/pan18-web/author-profiling.html)
+The participation of the *Natural Language Processing Lab* of the *University of Ottawa*\
+in the [Author Profiling shared task at PAN 2018](https://pan.webis.de/clef18/pan18-web/author-profiling.html)
 
 Our model was the **best-performing** model in *textual classification*, with the accuracy of 0.8221, 0.82, and 0.809 on the English, Spanish, and Arabic datasets respectively. Considering the combination of textual and image classification, and all three datasets, *our model ranked __second__ in the task* out of 23 teams.
 
