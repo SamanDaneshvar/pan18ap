@@ -118,7 +118,7 @@ The program should now be ready to run. For more information, refer to the docst
 
 
 ## Support
-I hope this information will be useful. If you have any specific questions about the code or our approach that you cannot find the answer to in the comments or in the notebook paper, my email address is written in [our paper](#citation).
+I hope you will find this information useful. If you have any specific questions about the code or our approach that you cannot find the answer to in the comments or in the notebook paper, my email address is written in [our paper](#citation).
 
 
 ## Acknowledgments
