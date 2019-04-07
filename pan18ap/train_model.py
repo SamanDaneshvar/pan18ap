@@ -264,7 +264,7 @@ def extract_features(docs_train, docs_test, preset_key):
     # • Dimensionality reduction using truncated SVD (aka LSA)
     if PRESET['perform_dimentionality_reduction']:
         # Build a truncated SVD (LSA) transformer object
-        svd = TruncatedSVD(n_components=300, random_state=42)
+        svd = TruncatedSVD(n_components=300, random_state=43)
         # Fit the LSI model and perform dimensionality reduction
         X_train_ngrams_tfidf_reduced = svd.fit_transform(X_train_ngrams_tfidf)
         logger.info("@ %.2f seconds: Finished dimensionality reduction (LSA) on the training dataset", time.process_time())
@@ -384,7 +384,7 @@ def extract_features_offensive_words(docs_train, docs_test):
 
     # • Dimensionality reduction using truncated SVD (aka LSA)
     # Build a truncated SVD (LSA) transformer object
-    svd_offensive_words = TruncatedSVD(n_components=10, random_state=42)
+    svd_offensive_words = TruncatedSVD(n_components=10, random_state=43)
     # Fit the LSI model and perform dimensionality reduction
     x_train_offensive_words_tfidf_reduced = svd_offensive_words.fit_transform(X_train_offensive_words_tfidf)
     logger.info("@ %.2f seconds: Finished dimensionality reduction (LSA) in *extract_features_offensive_words()* on "
