@@ -52,7 +52,9 @@ The papers should include all the required details to reproduce their experiment
 1. Best of luck!
 
 ### I am new to Python. What do I do?
-A great place to start is the [beginner's guide](https://www.python.org/about/gettingstarted/) and the [Python tutorial](https://docs.python.org/3/tutorial/) at Python's own website. Needless to say, there are plenty of books, online courses and GitHub repositories to help you learn Python, but we won't get into that here.
+Taking a programming course from [**Python ASAP**](https://pythonasap.com) would be the best way to learn Python. During the course, you will get great assignments and quizzes with solutions and personalized feedback. Most importantly, you would have access to the Python ASAP textbook.
+
+Another great place to start is the [beginner's guide](https://www.python.org/about/gettingstarted/) and the [Python tutorial](https://docs.python.org/3/tutorial/) at Python's own website. Needless to say, there are plenty of other online courses, books, and GitHub repositories to help you learn Python.
 
 Once you have your Python installation up and running, you can continue to the [next section](#installation), to set up my code on your computer.
 
