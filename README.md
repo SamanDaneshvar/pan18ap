@@ -1,4 +1,4 @@
-# pan18ap (PAN 2018, Author Profiling task)
+# PAN 2018, Author Profiling task (pan18ap)
 The participation of the *Natural Language Processing Lab* of the *University of Ottawa*\
 in the [Author Profiling shared task at PAN 2018](https://pan.webis.de/clef18/pan18-web/author-profiling.html)
 
