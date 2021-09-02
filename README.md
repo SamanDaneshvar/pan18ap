@@ -11,8 +11,8 @@ Our approach to gender identification in Twitter, takes advantage of textual inf
 1. [Citation](#citation)
 1. [Motivation](#motivation)
 1. Getting started: a beginner's guide to PAN shared tasks
-    1. [I am looking to participate in a shared task at PAN. Where do I start?](#i-am-looking-to-participate-in-a-shared-task-at-pan-where-do-i-start)
-    1. [I am new to Python. What do I do?](#i-am-new-to-python-what-do-i-do)
+    1. [I am looking to participate in a shared task at PAN. Where do I start?](#pan-where-to-start)
+    1. [I am new to Python. What do I do?](#new-to-python)
 1. Installation
     1. [Requirements](#requirements)
     1. [Dataset](#dataset)
@@ -35,6 +35,7 @@ In the next section, I will give step by step instructions on how to reproduce t
 
 ## Getting started: a beginner's guide to PAN shared tasks
 ### I am looking to participate in a shared task at PAN. Where do I start?
+{: #pan-where-to-start}
 In a nutshell, begin with reproducing the experiments of the previous year's participants, and then try to improve the results by implementing new methods.
 
 Here, I will specifically explain the Author Profiling task at PAN 2018, but the following steps apply to pretty much any shared task.
@@ -52,6 +53,7 @@ The papers should include all the required details to reproduce their experiment
 1. Best of luck!
 
 ### I am new to Python. What do I do?
+{: #new-to-python}
 Taking a programming course from [**Python ASAP**](https://pythonasap.com) is the best way I can think of to learn Python. During this course, you will get great assignments and quizzes with solutions and personalized feedback. Most importantly, you would have access to the Python ASAP textbook.
 
 Another great place to start is the [beginner's guide](https://www.python.org/about/gettingstarted/) and the [Python tutorial](https://docs.python.org/3/tutorial/) at Python's own website. Needless to say, there are plenty of other online courses, books, and GitHub repositories to help you learn Python.
