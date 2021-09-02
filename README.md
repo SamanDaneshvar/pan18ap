@@ -1,6 +1,6 @@
 # PAN 2018, Author Profiling task (pan18ap)
 The participation of the *Natural Language Processing Lab* of the *University of Ottawa*\
-in the [Author Profiling shared task at PAN 2018](https://pan.webis.de/clef18/pan18-web/author-profiling.html)
+in the [Author Profiling shared task at PAN 2018][pan18-ap]
 
 Our model was the **best-performing** model in *textual classification*, with the accuracy of 0.8221, 0.82, and 0.809 on the English, Spanish, and Arabic datasets respectively. Considering the combination of textual and image classification, and all three datasets, *our model ranked __second__ in the task* out of 23 teams.
 
@@ -22,12 +22,12 @@ Our approach to gender identification in Twitter, takes advantage of textual inf
 
 ## Citation
 If our code comes in useful to you, please don't forget to cite our paper:
-> Daneshvar, S., & Inkpen, D. (2018). [*Gender Identification in Twitter using N-grams and LSA*](https://scholar.google.com/scholar?cluster=4499254726211723674). Notebook for PAN at CLEF 2018. CEUR Workshop Proceedings, 2125, 1–10. &nbsp; [**`Publisher`**](http://ceur-ws.org/Vol-2125/) &nbsp;[**`Paper PDF`**](http://ceur-ws.org/Vol-2125/paper_213.pdf) &nbsp;[**`Cite: BibTeX`**](../../raw/master/Daneshvar2018.bib)
+> Daneshvar, S., & Inkpen, D. (2018). [*Gender Identification in Twitter using N-grams and LSA*](https://scholar.google.com/scholar?cluster=4499254726211723674). Notebook for PAN at CLEF 2018. CEUR Workshop Proceedings, 2125, 1–10. &nbsp; [**`Publisher`**](http://ceur-ws.org/Vol-2125/) &nbsp;[**`Paper PDF`**](http://ceur-ws.org/Vol-2125/paper_213.pdf) &nbsp;[**`Cite: BibTeX`**](https://raw.githubusercontent.com/SamanDaneshvar/pan18ap/main/Daneshvar2018.bib)
 
 
 ## Motivation
 You are probably here for one of the following reasons:
-- You are a participant in a [shared task at PAN](https://pan.webis.de/tasks.html), looking for approaches that have worked well for other participants of the task in the previous years.
+- You are a participant in a [shared task at PAN][pan-shared-tasks], looking for approaches that have worked well for other participants of the task in the previous years.
 - You are a *machine learning* and *natural language processing* enthusiast, looking for some starting code to try out some NLP and ML experiments.
 
 In the next section, I will give step by step instructions on how to reproduce the results of the previous year's participants. These instructions are geared towards those with little or no experience with NLP and ML research. If this does not apply to you or you are not looking to participate at a PAN shared task, you may skip the next section. However, I still encourage you to take a look at [our paper](#citation) for full details on our approach.
@@ -38,9 +38,9 @@ In the next section, I will give step by step instructions on how to reproduce t
 In a nutshell, begin with reproducing the experiments of the previous year's participants, and then try to improve the results by implementing new methods.
 
 Here, I will specifically explain the Author Profiling task at PAN 2018, but the following steps apply to pretty much any shared task.
-1. First, head to the [Shared Tasks @ PAN](https://pan.webis.de/tasks.html) webpage, browse the tasks and register for the tasks that you like. It's free!
+1. First, head to the [Shared Tasks @ PAN][pan-shared-tasks] webpage, browse the tasks and register for the tasks that you like. It's free!
 1. You will receive an email from the organizers explaining how to access the dataset, how to submit your code (on the [TIRA](https://www.tira.io) virtual machine), and so on.
-1. Head back to the shared task's webpage, and browse the prevoius year's task: [Author Profiling task, PAN @ CLEF 2018](https://pan.webis.de/clef18/pan18-web/author-profiling.html)\
+1. Head back to the shared task's webpage, and browse the prevoius year's task: [Author Profiling task, PAN @ CLEF 2018][pan18-ap]\
 Here, you can see the ranking of the participating teams. Our team (named `daneshvar18`) ranked **second** in the *global ranking* and gained the **highest accuracy results** among all 23 participating teams in *textual classification*.\
 On the same page, you can also find the following paper:
     > Francisco Rangel, Paolo Rosso, Martin Potthast, Benno Stein. [*Overview of the 6th Author Profiling Task at PAN 2018: Multimodal Gender Identification in Twitter*](http://ceur-ws.org/Vol-2125/invited_paper_15.pdf). In: CLEF 2018 Labs and Workshops, Notebook Papers. CEUR Workshop Proceedings. CEUR-WS.org, vol. 2125.
@@ -85,11 +85,11 @@ pip install -U matplotlib
 For specific installation instructions refer to the links above.
 
 ### Dataset
-You can download the training corpus from the shared task's webpage: [Author Profiling, PAN @ CLEF 2018](https://pan.webis.de/clef18/pan18-web/author-profiling.html)
+You can download the training corpus from the shared task's webpage: [Author Profiling, PAN @ CLEF 2018][pan18-ap]
 
 You can even download the test corpus—this is the corpus that our programs were tested against at the time of submission on the TIRA virtual machine. At the time, we did not have access to these files.
 
-Note that the ZIP files are password-protected. To obtain the passwords, [contact the organizers of PAN](https://pan.webis.de/contact.html). They are really helpful and will give you useful advice.
+Note that the ZIP files are password-protected. To obtain the passwords, [contact the organizers of PAN](https://pan.webis.de/organization.html). They are really helpful and will give you useful advice.
 
 Once you have downloaded and extracted the *PAN 2018 Author Profiling* training corpus, add it to the `data/` directory as follows:
 ```
@@ -127,3 +127,7 @@ I hope you will find this information useful. If you have any specific questions
 ## Acknowledgments
 - Thanks to the **Natural Sciences and Engineering Research Council of Canada (NSERC)** and the **University of Ottawa** for funding this research.
 - Thanks to the organizing committee of PAN, especially Paolo Rosso, Francisco Rangel and Martin Potthast for their encouragement and kind support.
+
+
+[pan-shared-tasks]: https://pan.webis.de/shared-tasks.html
+[pan18-ap]: https://pan.webis.de/clef18/pan18-web/author-profiling.html
